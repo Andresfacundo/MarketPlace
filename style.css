@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    /* -webkit-font-smoothing: antialiased; */
     color: inherit;
 }
 
@@ -76,8 +75,13 @@ input{
     align-items: center;
     padding-top: .1rem;
     padding-bottom: .8rem;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;   
+}
+
+h1{
+    color: white;
+    text-shadow: .07rem .07rem 0rem black,
+                 .3rem .3rem 0rem #F16D1C;
 }
 
 .line{
@@ -103,7 +107,7 @@ input{
     border-radius: 10rem;
     padding: .5rem 1rem .5rem 1rem;
     font-size: 1.1rem;
-    box-shadow: .1rem .1rem .3rem black;
+    box-shadow: .1rem .1rem .30rem black;
 }
 
 .section-products{
@@ -152,6 +156,7 @@ input{
 .card .div-h2{
     color: white;
     text-shadow: .1rem .1rem .0rem black;
+    background: linear-gradient(#ffffff07, #000000aa);
     width: 10rem;
     height: 8rem;
     position: absolute;
@@ -163,8 +168,8 @@ input{
 }
 
 .div-h2:hover{
-    /* background: linear-gradient(#ffffff07, #F16D1C); */
     background: linear-gradient(#ffffff07, #000000aa);
+    background-color: ;
 }
 
 .div-h2 h2{
