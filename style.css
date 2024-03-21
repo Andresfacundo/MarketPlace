@@ -123,12 +123,13 @@ h1{
 }
 
 .card-products {
-    /* border: solid 3px #F16D1C; */
+    border: 2px solid red;
     border-radius: .4rem;
     border: none;
     background-color: white;
     box-shadow: .1rem .1rem .5rem black;
     transition: .4s;
+    cursor: pointer;
 }
 
 .card-products:hover{
@@ -146,6 +147,15 @@ h1{
     align-items: center;
     justify-content: end;
 
+}
+.modal{
+    position: absolute;
+    width: 80%;
+    height: 20rem;
+    text-align: center;
+    background-color: #393737;
+    display: none;
+    z-index: 1;
 }
 
 .card img{
